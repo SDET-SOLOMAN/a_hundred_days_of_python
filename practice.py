@@ -1,7 +1,7 @@
-l = [1, 3, 5]
+def year(time, month):
+    months = [31, 28, 30, 31, 30, 31]
+    if time:
+        return months[month - 1] + 1
+    return months[month - 1]
 
-l2 = l
-
-l2.append(54)
-
-print(l, l2)
+print(year(True, 2))
