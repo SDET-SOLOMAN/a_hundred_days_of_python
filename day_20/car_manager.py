@@ -2,8 +2,8 @@ from turtle import Turtle
 from random import choice, randint, random
 
 COLORS = ["red", "orange", "yellow", "green", "blue", "purple"]
-Y_COR_UPPER = 280
-Y_COR_LOWER = -280
+Y_COR_UPPER = 260
+Y_COR_LOWER = -260
 STARTING_MOVE_DISTANCE = 5
 MOVE_INCREMENT = 10
 

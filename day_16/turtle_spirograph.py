@@ -20,5 +20,5 @@ def spiro(numiko):
         sdet_soloman.circle(100)
         sdet_soloman.setheading(sdet_soloman.heading() - numiko)
 
-spiro(90)
+spiro(30)
 screen.exitonclick()
