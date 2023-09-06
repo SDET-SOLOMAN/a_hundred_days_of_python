@@ -1,8 +1,4 @@
-# Вы про это?
-# 3.2 Дан список list_1 = ['Hi', 'ananas', 2, None, 75, 'pizza', 36, 100]
-# получите сумму всех чисел,
-# распечатайте все строки, где есть буква 'a'
+l = '          jnfndf           nfijgijfg ijgidjg'
+s = "$"
 
-d = {4:'3', 5:4}
-d.pop(4)
-print(d)
+print(' '.join(" ".join(x) for x in l.split()))
